@@ -1,0 +1,2562 @@
+[
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "masculine",
+    "question": "___ Mann liest ein Buch.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У називному відмінку чоловічого роду артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "masculine",
+    "question": "___ Mann liest ein Buch.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У називному відмінку чоловічого роду артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "masculine",
+    "question": "___ Mann liest ein Buch.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У називному відмінку чоловічого роду артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "masculine",
+    "question": "___ Mann liest ein Buch.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У називному відмінку чоловічого роду артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "masculine",
+    "question": "___ Mann liest ein Buch.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У називному відмінку чоловічого роду артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "masculine",
+    "question": "___ Mann liest ein Buch.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У називному відмінку чоловічого роду артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "masculine",
+    "question": "___ Mann liest ein Buch.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У називному відмінку чоловічого роду артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "masculine",
+    "question": "___ Mann liest ein Buch.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У називному відмінку чоловічого роду артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "masculine",
+    "question": "___ Mann liest ein Buch.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У називному відмінку чоловічого роду артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "masculine",
+    "question": "___ Hund schläft.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У називному відмінку чоловічого роду артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "feminine",
+    "question": "___ Katze schläft.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "У називному відмінку жіночого роду артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "feminine",
+    "question": "___ Frau trinkt Tee.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "У називному відмінку жіночого роду артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "feminine",
+    "question": "___ Katze schläft.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "У називному відмінку жіночого роду артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "feminine",
+    "question": "___ Katze schläft.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "У називному відмінку жіночого роду артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "feminine",
+    "question": "___ Katze schläft.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "У називному відмінку жіночого роду артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "feminine",
+    "question": "___ Frau trinkt Tee.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "У називному відмінку жіночого роду артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "feminine",
+    "question": "___ Katze schläft.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "У називному відмінку жіночого роду артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "feminine",
+    "question": "___ Frau trinkt Tee.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "У називному відмінку жіночого роду артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "feminine",
+    "question": "___ Katze schläft.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "У називному відмінку жіночого роду артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "feminine",
+    "question": "___ Frau trinkt Tee.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "У називному відмінку жіночого роду артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "neuter",
+    "question": "___ Kind spielt im Garten.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У називному відмінку середнього роду артикль — 'das'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "neuter",
+    "question": "___ Auto ist neu.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У називному відмінку середнього роду артикль — 'das'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "neuter",
+    "question": "___ Auto ist neu.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У називному відмінку середнього роду артикль — 'das'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "neuter",
+    "question": "___ Auto ist neu.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У називному відмінку середнього роду артикль — 'das'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "neuter",
+    "question": "___ Kind spielt im Garten.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У називному відмінку середнього роду артикль — 'das'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "neuter",
+    "question": "___ Kind spielt im Garten.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У називному відмінку середнього роду артикль — 'das'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "neuter",
+    "question": "___ Auto ist neu.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У називному відмінку середнього роду артикль — 'das'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "neuter",
+    "question": "___ Kind spielt im Garten.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У називному відмінку середнього роду артикль — 'das'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "neuter",
+    "question": "___ Auto ist neu.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У називному відмінку середнього роду артикль — 'das'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "neuter",
+    "question": "___ Kind spielt im Garten.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У називному відмінку середнього роду артикль — 'das'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "plural",
+    "question": "___ Bücher liegen auf dem Tisch.",
+    "options": [
+      "Die",
+      "Der",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У називному відмінку множини артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "plural",
+    "question": "___ Kinder spielen Fußball.",
+    "options": [
+      "Die",
+      "Der",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У називному відмінку множини артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "plural",
+    "question": "___ Kinder spielen Fußball.",
+    "options": [
+      "Die",
+      "Der",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У називному відмінку множини артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "plural",
+    "question": "___ Bücher liegen auf dem Tisch.",
+    "options": [
+      "Die",
+      "Der",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У називному відмінку множини артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "plural",
+    "question": "___ Kinder spielen Fußball.",
+    "options": [
+      "Die",
+      "Der",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У називному відмінку множини артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "plural",
+    "question": "___ Bücher liegen auf dem Tisch.",
+    "options": [
+      "Die",
+      "Der",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У називному відмінку множини артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "plural",
+    "question": "___ Kinder spielen Fußball.",
+    "options": [
+      "Die",
+      "Der",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У називному відмінку множини артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "plural",
+    "question": "___ Kinder spielen Fußball.",
+    "options": [
+      "Die",
+      "Der",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У називному відмінку множини артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "plural",
+    "question": "___ Kinder spielen Fußball.",
+    "options": [
+      "Die",
+      "Der",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У називному відмінку множини артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Nominativ",
+    "gender": "plural",
+    "question": "___ Bücher liegen auf dem Tisch.",
+    "options": [
+      "Die",
+      "Der",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У називному відмінку множини артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "masculine",
+    "question": "Er kauft ___ Tisch.",
+    "options": [
+      "Der",
+      "Den",
+      "Dem",
+      "Des"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "У знахідному відмінку чоловічого роду артикль — 'den'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "masculine",
+    "question": "Ich sehe ___ Hund.",
+    "options": [
+      "Der",
+      "Den",
+      "Dem",
+      "Des"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "У знахідному відмінку чоловічого роду артикль — 'den'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "masculine",
+    "question": "Ich sehe ___ Hund.",
+    "options": [
+      "Der",
+      "Den",
+      "Dem",
+      "Des"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "У знахідному відмінку чоловічого роду артикль — 'den'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "masculine",
+    "question": "Ich sehe ___ Hund.",
+    "options": [
+      "Der",
+      "Den",
+      "Dem",
+      "Des"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "У знахідному відмінку чоловічого роду артикль — 'den'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "masculine",
+    "question": "Ich sehe ___ Hund.",
+    "options": [
+      "Der",
+      "Den",
+      "Dem",
+      "Des"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "У знахідному відмінку чоловічого роду артикль — 'den'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "masculine",
+    "question": "Ich sehe ___ Hund.",
+    "options": [
+      "Der",
+      "Den",
+      "Dem",
+      "Des"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "У знахідному відмінку чоловічого роду артикль — 'den'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "masculine",
+    "question": "Er kauft ___ Tisch.",
+    "options": [
+      "Der",
+      "Den",
+      "Dem",
+      "Des"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "У знахідному відмінку чоловічого роду артикль — 'den'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "masculine",
+    "question": "Ich sehe ___ Hund.",
+    "options": [
+      "Der",
+      "Den",
+      "Dem",
+      "Des"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "У знахідному відмінку чоловічого роду артикль — 'den'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "masculine",
+    "question": "Ich sehe ___ Hund.",
+    "options": [
+      "Der",
+      "Den",
+      "Dem",
+      "Des"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "У знахідному відмінку чоловічого роду артикль — 'den'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "masculine",
+    "question": "Ich sehe ___ Hund.",
+    "options": [
+      "Der",
+      "Den",
+      "Dem",
+      "Des"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "У знахідному відмінку чоловічого роду артикль — 'den'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "feminine",
+    "question": "Ich kenne ___ Frau.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "У знахідному відмінку жіночого роду артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "feminine",
+    "question": "Er besucht ___ Schule.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "У знахідному відмінку жіночого роду артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "feminine",
+    "question": "Er besucht ___ Schule.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "У знахідному відмінку жіночого роду артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "feminine",
+    "question": "Er besucht ___ Schule.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "У знахідному відмінку жіночого роду артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "feminine",
+    "question": "Ich kenne ___ Frau.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "У знахідному відмінку жіночого роду артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "feminine",
+    "question": "Ich kenne ___ Frau.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "У знахідному відмінку жіночого роду артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "feminine",
+    "question": "Er besucht ___ Schule.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "У знахідному відмінку жіночого роду артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "feminine",
+    "question": "Er besucht ___ Schule.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "У знахідному відмінку жіночого роду артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "feminine",
+    "question": "Ich kenne ___ Frau.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "У знахідному відмінку жіночого роду артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "feminine",
+    "question": "Ich kenne ___ Frau.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "У знахідному відмінку жіночого роду артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "neuter",
+    "question": "Er öffnet ___ Fenster.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У знахідному відмінку середнього роду артикль — 'das'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "neuter",
+    "question": "Sie hat ___ Buch.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У знахідному відмінку середнього роду артикль — 'das'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "neuter",
+    "question": "Er öffnet ___ Fenster.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У знахідному відмінку середнього роду артикль — 'das'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "neuter",
+    "question": "Er öffnet ___ Fenster.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У знахідному відмінку середнього роду артикль — 'das'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "neuter",
+    "question": "Er öffnet ___ Fenster.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У знахідному відмінку середнього роду артикль — 'das'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "neuter",
+    "question": "Sie hat ___ Buch.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У знахідному відмінку середнього роду артикль — 'das'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "neuter",
+    "question": "Er öffnet ___ Fenster.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У знахідному відмінку середнього роду артикль — 'das'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "neuter",
+    "question": "Er öffnet ___ Fenster.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У знахідному відмінку середнього роду артикль — 'das'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "neuter",
+    "question": "Er öffnet ___ Fenster.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У знахідному відмінку середнього роду артикль — 'das'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "neuter",
+    "question": "Sie hat ___ Buch.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У знахідному відмінку середнього роду артикль — 'das'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "plural",
+    "question": "Er liest ___ Zeitungen.",
+    "options": [
+      "Die",
+      "Der",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У знахідному відмінку множини артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "plural",
+    "question": "Ich sehe ___ Kinder.",
+    "options": [
+      "Die",
+      "Der",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У знахідному відмінку множини артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "plural",
+    "question": "Ich sehe ___ Kinder.",
+    "options": [
+      "Die",
+      "Der",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У знахідному відмінку множини артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "plural",
+    "question": "Er liest ___ Zeitungen.",
+    "options": [
+      "Die",
+      "Der",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У знахідному відмінку множини артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "plural",
+    "question": "Ich sehe ___ Kinder.",
+    "options": [
+      "Die",
+      "Der",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У знахідному відмінку множини артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "plural",
+    "question": "Ich sehe ___ Kinder.",
+    "options": [
+      "Die",
+      "Der",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У знахідному відмінку множини артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "plural",
+    "question": "Er liest ___ Zeitungen.",
+    "options": [
+      "Die",
+      "Der",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У знахідному відмінку множини артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "plural",
+    "question": "Er liest ___ Zeitungen.",
+    "options": [
+      "Die",
+      "Der",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У знахідному відмінку множини артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "plural",
+    "question": "Ich sehe ___ Kinder.",
+    "options": [
+      "Die",
+      "Der",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У знахідному відмінку множини артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Akkusativ",
+    "gender": "plural",
+    "question": "Er liest ___ Zeitungen.",
+    "options": [
+      "Die",
+      "Der",
+      "Das",
+      "Den"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У знахідному відмінку множини артикль — 'die'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "masculine",
+    "question": "Ich helfe ___ Mann.",
+    "options": [
+      "Der",
+      "Den",
+      "Dem",
+      "Des"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У давальному відмінку чоловічого роду артикль — 'dem'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "masculine",
+    "question": "Er gibt ___ Hund Futter.",
+    "options": [
+      "Der",
+      "Den",
+      "Dem",
+      "Des"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У давальному відмінку чоловічого роду артикль — 'dem'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "masculine",
+    "question": "Er gibt ___ Hund Futter.",
+    "options": [
+      "Der",
+      "Den",
+      "Dem",
+      "Des"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У давальному відмінку чоловічого роду артикль — 'dem'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "masculine",
+    "question": "Ich helfe ___ Mann.",
+    "options": [
+      "Der",
+      "Den",
+      "Dem",
+      "Des"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У давальному відмінку чоловічого роду артикль — 'dem'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "masculine",
+    "question": "Er gibt ___ Hund Futter.",
+    "options": [
+      "Der",
+      "Den",
+      "Dem",
+      "Des"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У давальному відмінку чоловічого роду артикль — 'dem'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "masculine",
+    "question": "Er gibt ___ Hund Futter.",
+    "options": [
+      "Der",
+      "Den",
+      "Dem",
+      "Des"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У давальному відмінку чоловічого роду артикль — 'dem'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "masculine",
+    "question": "Er gibt ___ Hund Futter.",
+    "options": [
+      "Der",
+      "Den",
+      "Dem",
+      "Des"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У давальному відмінку чоловічого роду артикль — 'dem'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "masculine",
+    "question": "Ich helfe ___ Mann.",
+    "options": [
+      "Der",
+      "Den",
+      "Dem",
+      "Des"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У давальному відмінку чоловічого роду артикль — 'dem'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "masculine",
+    "question": "Ich helfe ___ Mann.",
+    "options": [
+      "Der",
+      "Den",
+      "Dem",
+      "Des"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У давальному відмінку чоловічого роду артикль — 'dem'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "masculine",
+    "question": "Ich helfe ___ Mann.",
+    "options": [
+      "Der",
+      "Den",
+      "Dem",
+      "Des"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У давальному відмінку чоловічого роду артикль — 'dem'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "feminine",
+    "question": "Er hilft ___ Katze.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У давальному відмінку жіночого роду артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "feminine",
+    "question": "Ich danke ___ Frau.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У давальному відмінку жіночого роду артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "feminine",
+    "question": "Ich danke ___ Frau.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У давальному відмінку жіночого роду артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "feminine",
+    "question": "Er hilft ___ Katze.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У давальному відмінку жіночого роду артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "feminine",
+    "question": "Ich danke ___ Frau.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У давальному відмінку жіночого роду артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "feminine",
+    "question": "Ich danke ___ Frau.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У давальному відмінку жіночого роду артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "feminine",
+    "question": "Er hilft ___ Katze.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У давальному відмінку жіночого роду артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "feminine",
+    "question": "Er hilft ___ Katze.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У давальному відмінку жіночого роду артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "feminine",
+    "question": "Er hilft ___ Katze.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У давальному відмінку жіночого роду артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "feminine",
+    "question": "Ich danke ___ Frau.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У давальному відмінку жіночого роду артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "neuter",
+    "question": "Er sitzt bei ___ Auto.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "У давальному відмінку середнього роду артикль — 'dem'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "neuter",
+    "question": "Ich spiele mit ___ Kind.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "У давальному відмінку середнього роду артикль — 'dem'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "neuter",
+    "question": "Er sitzt bei ___ Auto.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "У давальному відмінку середнього роду артикль — 'dem'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "neuter",
+    "question": "Er sitzt bei ___ Auto.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "У давальному відмінку середнього роду артикль — 'dem'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "neuter",
+    "question": "Er sitzt bei ___ Auto.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "У давальному відмінку середнього роду артикль — 'dem'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "neuter",
+    "question": "Ich spiele mit ___ Kind.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "У давальному відмінку середнього роду артикль — 'dem'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "neuter",
+    "question": "Ich spiele mit ___ Kind.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "У давальному відмінку середнього роду артикль — 'dem'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "neuter",
+    "question": "Ich spiele mit ___ Kind.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "У давальному відмінку середнього роду артикль — 'dem'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "neuter",
+    "question": "Er sitzt bei ___ Auto.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "У давальному відмінку середнього роду артикль — 'dem'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "neuter",
+    "question": "Ich spiele mit ___ Kind.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Dem"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "У давальному відмінку середнього роду артикль — 'dem'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "plural",
+    "question": "Er hilft ___ Freunden.",
+    "options": [
+      "Die",
+      "Der",
+      "Den",
+      "Dem"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У давальному відмінку множини артикль — 'den'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "plural",
+    "question": "Er hilft ___ Freunden.",
+    "options": [
+      "Die",
+      "Der",
+      "Den",
+      "Dem"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У давальному відмінку множини артикль — 'den'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "plural",
+    "question": "Ich spreche mit ___ Kindern.",
+    "options": [
+      "Die",
+      "Der",
+      "Den",
+      "Dem"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У давальному відмінку множини артикль — 'den'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "plural",
+    "question": "Er hilft ___ Freunden.",
+    "options": [
+      "Die",
+      "Der",
+      "Den",
+      "Dem"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У давальному відмінку множини артикль — 'den'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "plural",
+    "question": "Er hilft ___ Freunden.",
+    "options": [
+      "Die",
+      "Der",
+      "Den",
+      "Dem"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У давальному відмінку множини артикль — 'den'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "plural",
+    "question": "Ich spreche mit ___ Kindern.",
+    "options": [
+      "Die",
+      "Der",
+      "Den",
+      "Dem"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У давальному відмінку множини артикль — 'den'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "plural",
+    "question": "Er hilft ___ Freunden.",
+    "options": [
+      "Die",
+      "Der",
+      "Den",
+      "Dem"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У давальному відмінку множини артикль — 'den'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "plural",
+    "question": "Er hilft ___ Freunden.",
+    "options": [
+      "Die",
+      "Der",
+      "Den",
+      "Dem"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У давальному відмінку множини артикль — 'den'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "plural",
+    "question": "Er hilft ___ Freunden.",
+    "options": [
+      "Die",
+      "Der",
+      "Den",
+      "Dem"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У давальному відмінку множини артикль — 'den'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Dativ",
+    "gender": "plural",
+    "question": "Er hilft ___ Freunden.",
+    "options": [
+      "Die",
+      "Der",
+      "Den",
+      "Dem"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "У давальному відмінку множини артикль — 'den'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "masculine",
+    "question": "Die Tasche ___ Hundes ist groß.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "У родовому відмінку чоловічого роду артикль — 'des'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "masculine",
+    "question": "Das Buch ___ Mannes ist interessant.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "У родовому відмінку чоловічого роду артикль — 'des'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "masculine",
+    "question": "Die Tasche ___ Hundes ist groß.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "У родовому відмінку чоловічого роду артикль — 'des'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "masculine",
+    "question": "Das Buch ___ Mannes ist interessant.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "У родовому відмінку чоловічого роду артикль — 'des'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "masculine",
+    "question": "Die Tasche ___ Hundes ist groß.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "У родовому відмінку чоловічого роду артикль — 'des'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "masculine",
+    "question": "Das Buch ___ Mannes ist interessant.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "У родовому відмінку чоловічого роду артикль — 'des'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "masculine",
+    "question": "Das Buch ___ Mannes ist interessant.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "У родовому відмінку чоловічого роду артикль — 'des'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "masculine",
+    "question": "Das Buch ___ Mannes ist interessant.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "У родовому відмінку чоловічого роду артикль — 'des'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "masculine",
+    "question": "Das Buch ___ Mannes ist interessant.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "У родовому відмінку чоловічого роду артикль — 'des'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "masculine",
+    "question": "Das Buch ___ Mannes ist interessant.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "У родовому відмінку чоловічого роду артикль — 'des'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "feminine",
+    "question": "Die Farbe ___ Katze ist schwarz.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У родовому відмінку жіночого роду артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "feminine",
+    "question": "Das Kleid ___ Frau ist schön.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У родовому відмінку жіночого роду артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "feminine",
+    "question": "Das Kleid ___ Frau ist schön.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У родовому відмінку жіночого роду артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "feminine",
+    "question": "Die Farbe ___ Katze ist schwarz.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У родовому відмінку жіночого роду артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "feminine",
+    "question": "Das Kleid ___ Frau ist schön.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У родовому відмінку жіночого роду артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "feminine",
+    "question": "Die Farbe ___ Katze ist schwarz.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У родовому відмінку жіночого роду артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "feminine",
+    "question": "Die Farbe ___ Katze ist schwarz.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У родовому відмінку жіночого роду артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "feminine",
+    "question": "Die Farbe ___ Katze ist schwarz.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У родовому відмінку жіночого роду артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "feminine",
+    "question": "Das Kleid ___ Frau ist schön.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У родовому відмінку жіночого роду артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "feminine",
+    "question": "Die Farbe ___ Katze ist schwarz.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У родовому відмінку жіночого роду артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "neuter",
+    "question": "Die Tür ___ Hauses ist offen.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "У родовому відмінку середнього роду артикль — 'des'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "neuter",
+    "question": "Die Tür ___ Hauses ist offen.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "У родовому відмінку середнього роду артикль — 'des'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "neuter",
+    "question": "Der Name ___ Kindes ist Peter.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "У родовому відмінку середнього роду артикль — 'des'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "neuter",
+    "question": "Die Tür ___ Hauses ist offen.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "У родовому відмінку середнього роду артикль — 'des'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "neuter",
+    "question": "Die Tür ___ Hauses ist offen.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "У родовому відмінку середнього роду артикль — 'des'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "neuter",
+    "question": "Die Tür ___ Hauses ist offen.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "У родовому відмінку середнього роду артикль — 'des'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "neuter",
+    "question": "Der Name ___ Kindes ist Peter.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "У родовому відмінку середнього роду артикль — 'des'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "neuter",
+    "question": "Die Tür ___ Hauses ist offen.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "У родовому відмінку середнього роду артикль — 'des'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "neuter",
+    "question": "Der Name ___ Kindes ist Peter.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "У родовому відмінку середнього роду артикль — 'des'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "neuter",
+    "question": "Der Name ___ Kindes ist Peter.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "У родовому відмінку середнього роду артикль — 'des'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "plural",
+    "question": "Die Spiele ___ Kinder sind laut.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У родовому відмінку множини артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "plural",
+    "question": "Die Spiele ___ Kinder sind laut.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У родовому відмінку множини артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "plural",
+    "question": "Die Spiele ___ Kinder sind laut.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У родовому відмінку множини артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "plural",
+    "question": "Die Spiele ___ Kinder sind laut.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У родовому відмінку множини артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "plural",
+    "question": "Die Seiten ___ Bücher sind alt.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У родовому відмінку множини артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "plural",
+    "question": "Die Spiele ___ Kinder sind laut.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У родовому відмінку множини артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "plural",
+    "question": "Die Spiele ___ Kinder sind laut.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У родовому відмінку множини артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "plural",
+    "question": "Die Seiten ___ Bücher sind alt.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У родовому відмінку множини артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "plural",
+    "question": "Die Spiele ___ Kinder sind laut.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У родовому відмінку множини артикль — 'der'."
+  },
+  {
+    "type": "singleSelect",
+    "case": "Genitiv",
+    "gender": "plural",
+    "question": "Die Seiten ___ Bücher sind alt.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Des"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "У родовому відмінку множини артикль — 'der'."
+  }
+]
