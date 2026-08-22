@@ -46,7 +46,7 @@ async def articles(update: Update, context: ContextTypes.DEFAULT_TYPE):
     elif update.callback_query:
         await update.callback_query.message.reply_text(text, parse_mode="HTML", reply_markup=get_result_keyboard())
         
-def get_filtered_questions(case: str, gender: str, limit: int = 5):
+def get_filtered_questions(cases, genders, limit: int = 5):
     try:
         with open("deutch_articles.json", "r", encoding="utf-8") as f:
             all_questions = json.load(f)
@@ -54,7 +54,10 @@ def get_filtered_questions(case: str, gender: str, limit: int = 5):
         print(f"Помилка при завантаженні запитань: {e}")
         return []
 
-    filtered = [q for q in all_questions if q.get("case") == case and q.get("gender") == gender]
+    filtered = [
+        q for q in all_questions
+        if q.get("case") in cases and q.get("gender") in genders
+    ]
     return random.sample(filtered, min(limit, len(filtered)))
 
 def get_result_keyboard():
@@ -128,10 +131,16 @@ def get_leaderboard(top_n=5):
 
     for uid, s in scores.items():
         total = s["ok"] + s["fail"]
+        s["total"] = total
+        s["points"] = s["ok"]
         s["percent"] = round((s["ok"] / total) * 100, 2) if total > 0 else 0
 
-    # 🔽 Сортування за відсотком правильних відповідей
-    sorted_scores = sorted(scores.values(), key=lambda x: x["percent"], reverse=True)
+    # Один бал нараховується за кожну правильну відповідь.
+    sorted_scores = sorted(
+        scores.values(),
+        key=lambda x: (x["points"], x["percent"]),
+        reverse=True
+    )
     return sorted_scores[:top_n]
 
 # --- Хендлери ---
@@ -151,20 +160,31 @@ async def select(update: Update, context: ContextTypes.DEFAULT_TYPE):
     args = context.args
     if len(args) != 2:
         await update.message.reply_text(
-            "⚙️ Використання: /select <Відмінок> <Рід>\n"
-            "Наприклад: /select Akkusativ masculine\n\n"
+            "⚙️ Використання: /select <відмінки через кому> <роди через кому>\n"
+            "Наприклад: /select Nominativ,Akkusativ masculine,feminine\n\n"
             "Відмінки: Nominativ, Akkusativ, Dativ, Genitiv\n"
             "Роди: masculine, feminine, neuter, plural"
         )
         return
 
-    case, gender = args[0], args[1]
+    cases = list(dict.fromkeys(args[0].split(",")))
+    genders = list(dict.fromkeys(args[1].split(",")))
+    valid_cases = {"Nominativ", "Akkusativ", "Dativ", "Genitiv"}
+    valid_genders = {"masculine", "feminine", "neuter", "plural"}
+    if not set(cases) <= valid_cases or not set(genders) <= valid_genders:
+        await update.message.reply_text("⚠️ Перевір відмінки та роди у списку доступних значень.")
+        return
 
-    selected = get_filtered_questions(case, gender)
+    selected = get_filtered_questions(cases, genders)
+    if not selected:
+        await update.message.reply_text("⚠️ Для такого вибору немає завдань.")
+        return
     user_id = update.effective_user.id
     user_state[user_id] = {'index': 0, 'quiz': selected}
 
-    await update.message.reply_text(f"🔎 Обрано 5 завдань для {case} {gender}. Починаємо!")
+    await update.message.reply_text(
+        f"🔎 Обрано {len(selected)} завдань для {', '.join(cases)} / {', '.join(genders)}. Починаємо!"
+    )
     await send_question(update, context)
 
 async def send_question(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -231,10 +251,24 @@ async def leaderboard(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     text = "🏆 Лідерборд:\n"
     for i, entry in enumerate(leaders, start=1):
-        text += f"{i}. 👤 {entry['name']} — {entry['ok']} правильних ({entry['percent']}%)\n"
+        text += f"{i}. 👤 {entry['name']} — {entry['points']} балів ({entry['percent']}%, {entry['total']} вправ)\n"
     await update.message.reply_text(text)
 
 user_selection = {}  # тимчасове збереження вибору
+AVAILABLE_CASES = ["Nominativ", "Akkusativ", "Dativ", "Genitiv"]
+AVAILABLE_GENDERS = ["masculine", "feminine", "neuter", "plural"]
+
+def get_selection_keyboard(items, selected, callback_prefix, done_callback, done_text):
+    keyboard = [
+        [InlineKeyboardButton(
+            f"{'✅ ' if item in selected else ''}{item}",
+            callback_data=f"{callback_prefix}{item}"
+        )]
+        for item in items
+    ]
+    if selected:
+        keyboard.append([InlineKeyboardButton(done_text, callback_data=done_callback)])
+    return InlineKeyboardMarkup(keyboard)
 
 async def handle_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
@@ -242,29 +276,71 @@ async def handle_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = query.from_user.id
     data = query.data
 
-    # --- Вибір відмінка ---
+    # --- Багатовибір відмінків ---
     if data.startswith("choose_case_"):
         case = data.replace("choose_case_", "")
-        user_selection[user_id] = {"case": case}
-        genders = ["masculine", "feminine", "neuter", "plural"]
-        keyboard = [[InlineKeyboardButton(g, callback_data=f"choose_gender_{g}")] for g in genders]
-        await query.edit_message_text(f"📌 Обрано відмінок: {case}\n🔘 Тепер обери рід:", reply_markup=InlineKeyboardMarkup(keyboard))
+        selection = user_selection.setdefault(user_id, {"cases": set(), "genders": set()})
+        if case in selection["cases"]:
+            selection["cases"].remove(case)
+        else:
+            selection["cases"].add(case)
+        selected_cases = [item for item in AVAILABLE_CASES if item in selection["cases"]]
+        await query.edit_message_text(
+            f"🔘 Обери один або кілька відмінків:\nОбрано: {', '.join(selected_cases) or 'нічого'}",
+            reply_markup=get_selection_keyboard(
+                AVAILABLE_CASES, selection["cases"], "choose_case_", "choose_cases_done", "Далі: обрати роди"
+            )
+        )
         return
 
-    # --- Вибір роду + запуск тесту ---
+    elif data == "choose_cases_done":
+        selection = user_selection.get(user_id)
+        if not selection or not selection["cases"]:
+            await query.edit_message_text("⚠️ Обери хоча б один відмінок.")
+            return
+        await query.edit_message_text(
+            "🔘 Обери один або кілька родів:\nОбрано: нічого",
+            reply_markup=get_selection_keyboard(
+                AVAILABLE_GENDERS, selection["genders"], "choose_gender_", "choose_genders_done", "Почати тест"
+            )
+        )
+        return
+
+    # --- Багатовибір родів ---
     elif data.startswith("choose_gender_"):
         gender = data.replace("choose_gender_", "")
-        if user_id not in user_selection or "case" not in user_selection[user_id]:
+        if user_id not in user_selection or not user_selection[user_id]["cases"]:
             await query.edit_message_text("⚠️ Спочатку обери відмінок.")
             return
+        selection = user_selection[user_id]
+        if gender in selection["genders"]:
+            selection["genders"].remove(gender)
+        else:
+            selection["genders"].add(gender)
+        selected_genders = [item for item in AVAILABLE_GENDERS if item in selection["genders"]]
+        await query.edit_message_text(
+            f"🔘 Обери один або кілька родів:\nОбрано: {', '.join(selected_genders) or 'нічого'}",
+            reply_markup=get_selection_keyboard(
+                AVAILABLE_GENDERS, selection["genders"], "choose_gender_", "choose_genders_done", "Почати тест"
+            )
+        )
+        return
 
-        case = user_selection[user_id]["case"]
-        user_selection[user_id]["gender"] = gender
-
-        selected = get_filtered_questions(case, gender)
-
+    elif data == "choose_genders_done":
+        selection = user_selection.get(user_id)
+        if not selection or not selection["genders"]:
+            await query.edit_message_text("⚠️ Обери хоча б один рід.")
+            return
+        cases = [item for item in AVAILABLE_CASES if item in selection["cases"]]
+        genders = [item for item in AVAILABLE_GENDERS if item in selection["genders"]]
+        selected = get_filtered_questions(cases, genders)
+        if not selected:
+            await query.edit_message_text("⚠️ Для такого вибору немає завдань.")
+            return
         user_state[user_id] = {'index': 0, 'quiz': selected}
-        await query.edit_message_text(f"🔎 Обрано 5 завдань для {case} {gender}. Починаємо!")
+        await query.edit_message_text(
+            f"🔎 Обрано {len(selected)} завдань для {', '.join(cases)} / {', '.join(genders)}. Починаємо!"
+        )
         await send_question(update, context)
         return
 
@@ -288,7 +364,7 @@ async def handle_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
         text = "🏆 Лідерборд:\n"
         for i, entry in enumerate(leaders, start=1):
-            text += f"{i}. 👤 {entry['name']} — {entry['ok']} правильних ({entry['percent']}%)\n"
+            text += f"{i}. 👤 {entry['name']} — {entry['points']} балів ({entry['percent']}%, {entry['total']} вправ)\n"
         await safe_edit_message_text(query, text, get_result_keyboard())
 
         return
@@ -302,9 +378,13 @@ async def handle_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await send_question(update, context)
         return
     elif data == "choose_start":
-        cases = ["Nominativ", "Akkusativ", "Dativ", "Genitiv"]
-        keyboard = [[InlineKeyboardButton(case, callback_data=f"choose_case_{case}")] for case in cases]
-        await query.edit_message_text("🔘 Обери відмінок:", reply_markup=InlineKeyboardMarkup(keyboard))
+        user_selection[user_id] = {"cases": set(), "genders": set()}
+        await query.edit_message_text(
+            "🔘 Обери один або кілька відмінків:\nОбрано: нічого",
+            reply_markup=get_selection_keyboard(
+                AVAILABLE_CASES, set(), "choose_case_", "choose_cases_done", "Далі: обрати роди"
+            )
+        )
         return
     elif data == "main_menu":
         keyboard = InlineKeyboardMarkup([
@@ -320,7 +400,7 @@ async def handle_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "❓ <b>Допомога по боту</b>\n\n"
             "🧠 <b>/choose</b> — обрати граматичну комбінацію (відмінок + рід)\n"
             "🎲 <b>/start</b> — пройти випадковий тест із 5 завдань\n"
-            "⚙️ <b>/select Akkusativ masculine</b> — вручну задати комбінацію\n"
+            "⚙️ <b>/select Akkusativ masculine,feminine</b> — обрати кілька значень\n"
             "📊 <b>/stats</b> — переглянути свою статистику\n"
             "🏆 <b>/leaderboard</b> — топ користувачів за точністю\n\n"
             "✅ Після кожного тесту ти побачиш кнопки для повтору, перегляду результатів або вибору нової теми."
@@ -342,9 +422,13 @@ async def stats(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
     
 async def choose(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    cases = ["Nominativ", "Akkusativ", "Dativ", "Genitiv"]
-    keyboard = [[InlineKeyboardButton(case, callback_data=f"choose_case_{case}")] for case in cases]
-    await update.message.reply_text("🔘 Обери відмінок:", reply_markup=InlineKeyboardMarkup(keyboard))
+    user_selection[update.effective_user.id] = {"cases": set(), "genders": set()}
+    await update.message.reply_text(
+        "🔘 Обери один або кілька відмінків:\nОбрано: нічого",
+        reply_markup=get_selection_keyboard(
+            AVAILABLE_CASES, set(), "choose_case_", "choose_cases_done", "Далі: обрати роди"
+        )
+    )
     
 def main():
     print(">>> main() стартував")
