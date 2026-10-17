@@ -10,7 +10,8 @@ from telegram.ext import (
 from utils import safe_edit_message_text
 
 # Завантажуємо змінні з .env
-load_dotenv()
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+load_dotenv(os.path.join(BASE_DIR, ".env"))
 TOKEN = os.getenv("TELEGRAM_TOKEN")
 
 user_state = {}
@@ -431,7 +432,9 @@ async def choose(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
     
 def main():
-    print(">>> main() стартував")
+    if not TOKEN:
+        raise ValueError("Токен бота не знайдено! Встанови TELEGRAM_TOKEN у середовищі або у файлі .env.")
+
     app = ApplicationBuilder().token(TOKEN).build()
     app.add_error_handler(error_handler)
     app.add_handler(CommandHandler("start", start))

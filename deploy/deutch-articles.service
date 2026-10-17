@@ -1,0 +1,22 @@
+[Unit]
+Description=German Articles Telegram bot
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+User=botuser
+Group=botuser
+WorkingDirectory=/opt/bots/deutch_articles
+EnvironmentFile=/etc/deutch-articles.env
+ExecStart=/opt/bots/deutch_articles/.venv/bin/python /opt/bots/deutch_articles/deutch_articles.py
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/bots/deutch_articles
+
+[Install]
+WantedBy=multi-user.target

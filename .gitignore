@@ -17,11 +17,14 @@ Thumbs.db
 
 # Secrets
 .env
+.env.*
+!.env.example
 
 # Logs
 *.log
 
 # Virtual environments
 venv/
+.venv/
 .env/
 /results.json
